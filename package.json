@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://IhorMarch.github.io/goit-js-hw-08_",
+  "homepage": "https://ihormarch.github.io/goit-js-hw-08_",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-08_/"
+    "build": "parcel build src/*.html --public-url/goit-js-hw-08_/"
   },
   "repository": {
     "type": "git",
