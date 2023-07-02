@@ -26,6 +26,9 @@ function handlerSubmit(evt) {
     elements: { email, message }
   } = evt.currentTarget;
 
+  if (email.value === "" || message.value === "") {
+    return alert("Please fill in all the fields!");
+  }
 
     const userData = {
       Login: email.value, 
